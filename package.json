@@ -1,0 +1,39 @@
+{
+  "name": "chat-bot-library",
+  "version": "1.0.10",
+  "keywords": [
+    "react",
+    "components",
+    "ui"
+  ],
+  "main": "index.js",
+  "module": "dist/index.js",
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "build": "rm -rf dist && NODE_ENV=production babel components --out-dir dist --copy-files"
+  },
+  "peerDependencies": {
+    "next": "13.4.19",
+    "react": "18.2.0",
+    "react-icons": "^4.10.1"
+  },
+  "dependencies": {
+    "core-js": "^3.32.1",
+    "next": "13.4.19",
+    "react": "18.2.0",
+    "react-icons": "^4.10.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.22.10",
+    "@babel/core": "^7.22.11",
+    "@babel/preset-env": "^7.22.14",
+    "@babel/preset-react": "^7.22.5",
+    "babel-loader": "^9.1.3",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.15.1"
+  }
+}
